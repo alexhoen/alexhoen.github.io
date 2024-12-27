@@ -52,6 +52,15 @@ main:
     page: 
     bibtex: 
     code: https://github.com/scipopt/MIP-DD
+    notes: accepted for publication
+
+  - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
+    authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
+    conference: 
+    pdf: https://arxiv.org/abs/2412.14710
+    page: 
+    bibtex: 
+    code: https://github.com/alexhoen/bnbanalyzer
     notes: submitted
 
   - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
