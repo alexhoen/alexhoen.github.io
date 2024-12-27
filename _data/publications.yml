@@ -1,0 +1,66 @@
+main:
+
+  - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
+    authors: Alexander Hoen* , Andy Oertel, Ambros Gleixner, Jakob Nordström
+    conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2401.09277
+    page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
+    bibtex: https://citation-needed.springer.com/v2/references/10.1007/978-3-031-60597-0_20?format=bibtex&flavour=citation
+    doi: https://doi.org/10.1007/978-3-031-60597-0_20
+    code: 
+    notes:
+
+  - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
+    authors: Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner
+    conference: Operations Research Proceedings 2023
+    pdf: https://arxiv.org/abs/2307.03466
+    page: https://link.springer.com/book/9783031584046
+    editor: Guido Voigt, Malte Fliedner, Knut Haase, Wolfgang Brüggemann, Kai Hoberg, Joern Meissner
+    pages: 1-8
+    bibtex: 
+    notes: 
+
+  - title: "Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support"
+    authors: Ambros Gleixner, Leona Gottwald, Alexander Hoen*
+    conference: "INFORMS Journal on Computing 35(6):1329-1341"
+    doi: 10.1287/ijoc.2022.0171 
+    page: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0171
+    pdf: https://arxiv.org/abs/2206.10709
+    code: https://github.com/scipopt/papilo
+    bibtex: https://github.com/alexhoen/minimal-light/blob/main/_data/papilo.bib
+
+  - title: "Enabling research through the SCIP optimization suite 8.0"
+    authors: Mathieu Besançon, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
+    conference: "ACM Transactions on Mathematical Software 49(2):1-21"
+    pdf: https://arxiv.org/abs/2303.07101
+    page: https://dl.acm.org/doi/abs/10.1145/3585516
+    bibtex: 
+    code: 
+
+  - title: "SCIP8: rethinking nonlinear constraint representation and recent progress"
+    authors: Mathieu Besançon, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
+    conference: 23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision
+    pdf: https://hal.science/hal-03595412v1/document
+    page: https://hal.science/hal-03595412/
+    bibtex: 
+    code: 
+
+  - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
+    authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
+    conference: 
+    pdf: https://arxiv.org/abs/2405.19770
+    page: 
+    bibtex: 
+    code: https://github.com/scipopt/MIP-DD
+    notes: submitted
+
+  - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
+    authors: Katrin Halbig, Alexander Hoen, Ambros Gleixner, Dieter Weninger
+    conference: 
+    pdf: https://arxiv.org/abs/2503.19411
+    page: 
+    bibtex: 
+    code: 
+    notes: submitted
+
+
