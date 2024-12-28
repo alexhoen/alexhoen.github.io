@@ -5,7 +5,8 @@ main:
     conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
     pdf: https://arxiv.org/abs/2401.09277
     page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
-    bibtex: { inproceedings{HOGN22MIPPresolveCertification, year = {2024}, booktitle = {Proceedings of the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research}, pages = {310-328}, doi = {10.1007/978-3-031-60597-0_20}, archiveprefix = {arXiv}, eprint = {2401.09277}, primaryclass = {math.OC}, author = {Hoen, Alexander and Oertel, Andy and Gleixner, Ambros and Nordström, Jakob}, title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs} } }
+    #bibtex: { inproceedings{HOGN22MIPPresolveCertification, year = {2024}, booktitle = {Proceedings of the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research}, pages = {310-328}, doi = {10.1007/978-3-031-60597-0_20}, archiveprefix = {arXiv}, eprint = {2401.09277}, primaryclass = {math.OC}, author = {Hoen, Alexander and Oertel, Andy and Gleixner, Ambros and Nordström, Jakob}, title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs} } }
+    bibtex: @inproceedings{HOGN22MIPPresolveCertification, year= 2024}
     doi: https://doi.org/10.1007/978-3-031-60597-0_20
     code: 
     notes:
