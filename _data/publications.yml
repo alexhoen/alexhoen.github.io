@@ -5,7 +5,7 @@ main:
     conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
     pdf: https://arxiv.org/abs/2401.09277
     page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
-    bibtex: { @inproceedings{HOGN22MIPPresolveCertification, year = {2024}, booktitle = {Proceedings of the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research}, pages = {310-328}, doi = {10.1007/978-3-031-60597-0_20}, archiveprefix = {arXiv}, eprint = {2401.09277}, primaryclass = {math.OC}, author = {Hoen, Alexander and Oertel, Andy and Gleixner, Ambros and Nordström, Jakob}, title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs} } }
+    bibtex: { inproceedings{HOGN22MIPPresolveCertification, year = {2024}, booktitle = {Proceedings of the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research}, pages = {310-328}, doi = {10.1007/978-3-031-60597-0_20}, archiveprefix = {arXiv}, eprint = {2401.09277}, primaryclass = {math.OC}, author = {Hoen, Alexander and Oertel, Andy and Gleixner, Ambros and Nordström, Jakob}, title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs} } }
     doi: https://doi.org/10.1007/978-3-031-60597-0_20
     code: 
     notes:
@@ -17,7 +17,7 @@ main:
     page: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0171
     pdf: https://arxiv.org/abs/2206.10709
     code: https://github.com/scipopt/papilo
-    bibtex: { @article{GGH23Papilo, year = {2023}, journal = {INFORMS Journal on Computing}, doi = {10.1287/ijoc.2022.0171}, archiveprefix = {arXiv}, eprint = {2206.10709}, primaryclass = {math.OC}, author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander}, title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support} } }
+    #bibtex: { @article{GGH23Papilo, year = {2023}, journal = {INFORMS Journal on Computing}, doi = {10.1287/ijoc.2022.0171}, archiveprefix = {arXiv}, eprint = {2206.10709}, primaryclass = {math.OC}, author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander}, title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support} } }
 
   - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
     authors: Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner
