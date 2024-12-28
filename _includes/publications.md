@@ -30,9 +30,6 @@
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Link</a>
       {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
@@ -41,21 +38,16 @@
       {% endif %}
     </div>
      <!-- Expand Button -->
-  <button onclick="toggleBibtex('bibtex1')">BibTeX</button>
-  
-  <!-- Hidden BibTeX content -->
-  <div id="bibtex1" style="display: none; margin-top: 10px; background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd;">
-    <pre>
-      @article{example2024,
-      title={An example article},
-      author={Doe, John and Smith, Jane},
-      journal={Example Journal},
-      year={2024},
-      volume={42},
-      pages={123--456},
-    }
-    </pre>
-  </div>
+  {% if link.bibtex %} 
+    <button onclick="toggleBibtex('bibtex1')">BibTeX</button>
+    <!-- Hidden BibTeX content -->
+    <div id="bibtex1" style="display: none; margin-top: 10px; background-color: #white; padding: 15px; border: 1px solid #ddd;">
+      <pre>
+        {{ link.bibtex }}
+      </pre>
+    </div>
+ {% endif %}
+
   </div>
 </div>
 </li>
