@@ -41,7 +41,7 @@
   {% if link.bibtex %} 
     <button onclick="toggleBibtex('bibtex1')">BibTeX</button>
     <!-- Hidden BibTeX content -->
-    <div id="bibtex1" style="display: none; margin-top: 10px; background-color: #white; padding: 15px; border: 1px solid #ddd;">
+  <div id="bibtex1" style="display: none; margin-top: 10px; background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd;">
       <pre>
         {{ link.bibtex }}
       </pre>
