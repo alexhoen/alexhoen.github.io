@@ -40,6 +40,22 @@
       {{ link.others }}
       {% endif %}
     </div>
+     <!-- Expand Button -->
+  <button onclick="toggleBibtex('bibtex1')">Show BibTeX</button>
+  
+  <!-- Hidden BibTeX content -->
+  <div id="bibtex1" style="display: none; margin-top: 10px; background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd;">
+    <pre>
+@article{example2024,
+  title={An example article},
+  author={Doe, John and Smith, Jane},
+  journal={Example Journal},
+  year={2024},
+  volume={42},
+  pages={123--456},
+}
+    </pre>
+  </div>
   </div>
 </div>
 </li>
