@@ -32,7 +32,7 @@ main:
 
 
   - title: "Enabling research through the SCIP optimization suite 8.0"
-    authors: Mathieu Besançon, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
+    authors: Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
     conference: "ACM Transactions on Mathematical Software 49(2):1-21"
     pdf: https://arxiv.org/abs/2303.07101
     page: https://dl.acm.org/doi/abs/10.1145/3585516
@@ -40,7 +40,7 @@ main:
     code: 
 
   - title: "SCIP8: rethinking nonlinear constraint representation and recent progress"
-    authors: Mathieu Besançon, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
+    authors: Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
     conference: 23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision
     pdf: https://hal.science/hal-03595412v1/document
     page: https://hal.science/hal-03595412/
@@ -66,7 +66,7 @@ main:
     notes: submitted
 
   - title: "State-of-the-art Methods for Pseudo-Boolean Solving with SCIP"
-    authors: Gioni Mexi and Dominik Kamp and Yuji Shinano and Shanwen Pu and Alexander Hoen and Ksenia Bestuzheva and Christopher Hojny and Matthias Walter and Marc E. Pfetsch and Sebastian Pokutta and Thorsten Koch
+    authors: Gioni Mexi* and Dominik Kamp and Yuji Shinano and Shanwen Pu and Alexander Hoen and Ksenia Bestuzheva and Christopher Hojny and Matthias Walter and Marc E. Pfetsch and Sebastian Pokutta and Thorsten Koch
     conference: 
     pdf: https://arxiv.org/abs/2501.03390
     page: 
@@ -75,7 +75,7 @@ main:
 
 
   - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
-    authors: Katrin Halbig, Alexander Hoen, Ambros Gleixner, Dieter Weninger
+    authors: Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger
     conference: 
     pdf: https://arxiv.org/abs/2503.19411
     page: 
