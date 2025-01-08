@@ -57,7 +57,7 @@ main:
     notes: accepted for publication
 
   - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
-    authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
+    authors: Alexander Hoen*, Ambros Gleixner
     conference: 
     pdf: https://arxiv.org/abs/2412.14710
     page: 
