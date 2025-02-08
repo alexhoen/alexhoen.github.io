@@ -63,7 +63,7 @@ main:
     page: 
     bibtex: 
     code: https://github.com/alexhoen/bnbanalyzer
-    notes: submitted
+    notes: accepted for publication
 
   - title: "State-of-the-art Methods for Pseudo-Boolean Solving with SCIP"
     authors: Gioni Mexi* and Dominik Kamp and Yuji Shinano and Shanwen Pu and Alexander Hoen and Ksenia Bestuzheva and Christopher Hojny and Matthias Walter and Marc E. Pfetsch and Sebastian Pokutta and Thorsten Koch
@@ -81,6 +81,6 @@ main:
     page: 
     bibtex: 
     code: 
-    notes: submitted
+    notes: accepted for publication
 
 
