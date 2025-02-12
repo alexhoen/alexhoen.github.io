@@ -2,7 +2,7 @@ main:
 
   - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
     authors: Alexander Hoen*, Ambros Gleixner
-    conference: 22nd International Conference on the Integration of Constraint Programming, Artificial Intelligence,and Operations Research
+    conference: The 22st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2025.
     pdf: https://arxiv.org/abs/2412.14710
     page: 
     bibtex: 
