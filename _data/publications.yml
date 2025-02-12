@@ -1,5 +1,14 @@
 main:
 
+  - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
+    authors: Alexander Hoen*, Ambros Gleixner
+    conference: 22nd International Conference on the Integration of Constraint Programming, Artificial Intelligence,and Operations Research
+    pdf: https://arxiv.org/abs/2412.14710
+    page: 
+    bibtex: 
+    code: https://github.com/alexhoen/bnbanalyzer
+    notes: accepted for publication
+
   - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
     authors: Alexander Hoen* , Andy Oertel, Ambros Gleixner, Jakob Nordström
     conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
@@ -30,7 +39,6 @@ main:
     notes: 
 
 
-
   - title: "Enabling research through the SCIP optimization suite 8.0"
     authors: Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
     conference: "ACM Transactions on Mathematical Software 49(2):1-21"
@@ -54,15 +62,6 @@ main:
     page: 
     bibtex: 
     code: https://github.com/scipopt/MIP-DD
-    notes: accepted for publication
-
-  - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
-    authors: Alexander Hoen*, Ambros Gleixner
-    conference: 
-    pdf: https://arxiv.org/abs/2412.14710
-    page: 
-    bibtex: 
-    code: https://github.com/alexhoen/bnbanalyzer
     notes: accepted for publication
 
   - title: "State-of-the-art Methods for Pseudo-Boolean Solving with SCIP"
