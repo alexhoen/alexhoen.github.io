@@ -12,12 +12,13 @@ main:
 
    - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
      authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
-     conference: 
+     conference: "INFORMS Journal on Computing"
+     doi: 10.1287/ijoc.2024.0844
      pdf: https://arxiv.org/abs/2405.19770
-     page: 
+     page: https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0844
      bibtex: 
      code: https://github.com/scipopt/MIP-DD
-     notes: accepted for publication
+
  
    - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
      authors: Alexander Hoen* , Andy Oertel, Ambros Gleixner, Jakob Nordström
