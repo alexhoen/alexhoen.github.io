@@ -41,12 +41,12 @@ main:
 
    - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
      authors: Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger
-     conference: 
+     conference: EURO Journal on Computational Optimization
      pdf: https://arxiv.org/abs/2503.19411
      page: 
      bibtex: 
      code: 
-     notes: accepted - minor revision
+     notes: accepted for publication
  
    - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
      authors: Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner
