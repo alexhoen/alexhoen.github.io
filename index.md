@@ -18,7 +18,7 @@ I study mixed integer linear programming, with a special interest in exact solvi
 
 ## Talks
 
-- "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings" @ *CPAIOR 2025 in Melbourne*
+- "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings" @ *CPAIOR 2025 in Melbourne* (upcoming)
 - "Certifying MIP-Based Presolve Reductions for 0-1 Integer Linear Programs" @ *ISMP 2024 in Montreal*
 - "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers" @ *CPAIOR 2024 in Uppsala (poster)*
 - "Certifying MIP-Based Presolve Reductions for 0-1 Integer Linear Programs" @ *CPAIOR 2024 in Uppsala*
