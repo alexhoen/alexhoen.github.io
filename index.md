@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at **HTW Berlin**, conducting research within the [**Go!PPS project**](https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=3767), and a guest researcher at the **Zuse Institute Berlin (ZIB)**. My work focuses on the development and analysis of algorithms for mixed-integer and combinatorial optimization, with an emphasis on presolving techniques, high-performance computation, and GPU-accelerated optimization.
+I am a Ph.D. student at [**HTW Berlin**](https://www.htw-berlin.de/hochschule/personen/person/?eid=14912), conducting research within the [**Go!PPS project**](https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=3767), and a guest researcher at the [**Zuse Institute Berlin (ZIB)**](https://www.zib.de/de/members/hoen). My work focuses on the development and analysis of algorithms for mixed-integer and combinatorial optimization, with an emphasis on presolving techniques, high-performance computation, and GPU-accelerated optimization.
 
 I am the maintainer of the presolving library [**PaPILO**](https://github.com/scipopt/papilo) and an active contributor to the [**SCIP optimization framework**](https://github.com/scipopt/), where I develop and refine algorithms for both theoretical and practical applications.  
 
