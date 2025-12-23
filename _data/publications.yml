@@ -34,7 +34,7 @@ main:
    - title: "Clique Probing for Mixed-Integer Programs"
      authors: Jacob von Holly-Ponientzietz, Alexander Hoen*, Mark Turner, Ambros Gleixner
      pdf: "https://arxiv.org/abs/2512.17551"
-     notes: in review 
+     notes: under review 
  
    - title: "Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support"
      authors: Ambros Gleixner, Leona Gottwald, Alexander Hoen*
