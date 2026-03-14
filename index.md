@@ -15,6 +15,11 @@ My current research explores GPU-based approaches to optimization problems, inve
 
 {% include_relative _includes/reports.md %}
 
+## Prizes
+  - title: "PseudoBoolean Competition 2024"
+    description: "1st place in PARTIAL-LIN track, 2nd place in OPT-LIN track"
+    link: https://www.cril.univ-artois.fr/PB24/
+
 
 
 ## Talks
