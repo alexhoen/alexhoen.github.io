@@ -7,7 +7,7 @@
     
     {% if link.pdf %}<a href="{{ link.pdf }}">PDF</a>{% endif %}
     {% if link.code %}<a href="{{ link.code }}">Code</a>{% endif %}
-    {% if link.page %}<a href="{{ link.page }}">Link</a>{% endif %}
+    {% if link.link %}<a href="{{ link.link }}">Link</a>{% endif %}
     {% if link.bibtex %}<a href="{{ link.bibtex }}">BibTex</a>{% endif %}
     {% if link.notes %} {{ link.notes }} {% endif %}
     {% if link.others %} {{ link.others }} {% endif %}
