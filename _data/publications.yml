@@ -81,13 +81,5 @@ main:
      page: https://hal.science/hal-03595412/
      bibtex: 
      code: 
- 
-   - title: "State-of-the-art Methods for Pseudo-Boolean Solving with SCIP"
-     authors: Gioni Mexi*, Dominik Kamp, Yuji Shinano, Shanwen Pu, Alexander Hoen, Ksenia Bestuzheva, Christopher Hojny, Matthias Walter, Marc E. Pfetsch, Sebastian Pokutta, Thorsten Koch
-     conference: 
-     pdf: https://arxiv.org/abs/2501.03390
-     page: 
-     bibtex: 
-     notes: under review
 
  
