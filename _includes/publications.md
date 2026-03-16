@@ -62,6 +62,11 @@
         {% endif %}
         
         </div>
+        {% if link.bibtex %}
+          <div id="bibtex{{ forloop.index }}" class="bibtex-content">
+            <pre><code>{{ link.bibtex }}</code></pre>
+          </div>
+        {% endif %}
 
     </div>
 
