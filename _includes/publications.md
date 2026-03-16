@@ -52,19 +52,14 @@
 <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
 {% endif %}
 
-</div>
-
 {% if link.bibtex %}
-<div class="bibtex-box">
-
-<button class="btn btn-sm z-depth-0"
+<button 
+class="btn btn-sm z-depth-0"
+style="font-size:12px;"
 onclick="toggleBibtex('bibtex{{ forloop.index }}')">
 BibTeX
 </button>
-
-<div id="bibtex{{ forloop.index }}" style="display:none;margin-top:8px;background:#f8f9fa;border:1px solid #ddd;padding:10px;border-radius:6px;">
-
-<pre id="bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
+{% endif %}
 
 </div>
 
