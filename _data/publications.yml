@@ -9,21 +9,6 @@ main:
      doi:  https://doi.org/10.1007/978-3-031-95976-9_3
      code: https://github.com/alexhoen/bnbanalyzer
      notes:
-     abstract: |
-       Branch-and-bound algorithms are the backbone of modern mixed-integer programming solvers.
-       However, floating-point arithmetic can lead to numerically unstable decisions during branching
-       and bounding. In this work, we analyze the numerical correctness of these decisions and study
-       how rounding errors may affect solver behavior. We propose diagnostic tools to detect
-       problematic decisions and evaluate their impact on solver performance and reliability.   
-     bibtex: |
-       @inproceedings{hoen2025bnb,
-         title={Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings},
-         author={Hoen, Alexander and Gleixner, Ambros},
-         booktitle={Proceedings of the 22nd International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
-         year={2025},
-         doi={10.1007/978-3-031-95976-9_3},
-         url={https://doi.org/10.1007/978-3-031-95976-9_3}
-       }
 
    - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
      authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
