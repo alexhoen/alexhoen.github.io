@@ -1,83 +1,140 @@
 main:
- 
-   - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
-     authors: Alexander Hoen*, Ambros Gleixner
-     conference: The 22st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2025.
-     pdf: https://arxiv.org/abs/2412.14710
-     page: https://link.springer.com/chapter/10.1007/978-3-031-95976-9_3
-     doi:  https://doi.org/10.1007/978-3-031-95976-9_3
-     code: https://github.com/alexhoen/bnbanalyzer
-     notes:
 
-   - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
-     authors: Alexander Hoen*, Dominik Kamp, Ambros Gleixner
-     conference: "INFORMS Journal on Computing"
-     doi: 10.1287/ijoc.2024.0844
-     pdf: https://arxiv.org/abs/2405.19770
-     page: https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0844
-     bibtex: 
-     code: https://github.com/scipopt/MIP-DD
+  - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
+    authors: "Alexander Hoen*, Ambros Gleixner"
+    conference: The 22st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2412.14710
+    page: https://link.springer.com/chapter/10.1007/978-3-031-95976-9_3
+    doi: https://doi.org/10.1007/978-3-031-95976-9_3
+    code: https://github.com/alexhoen/bnbanalyzer
+    notes:
+    bibtex: |
+      @inproceedings{Hoen2025BnBAnalyzer,
+        author = {Hoen, Alexander and Gleixner, Ambros},
+        title = {Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings},
+        booktitle = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
+        year = {2025},
+        publisher = {Springer},
+        doi = {10.1007/978-3-031-95976-9_3}
+      }
 
- 
-   - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
-     authors: Alexander Hoen* , Andy Oertel, Ambros Gleixner, Jakob Nordström
-     conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
-     pdf: https://arxiv.org/abs/2401.09277
-     page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
-     #bibtex: inproceedings
-     doi: https://doi.org/10.1007/978-3-031-60597-0_20
-     code: 
-     notes:
+  - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
+    authors: "Alexander Hoen*, Dominik Kamp, Ambros Gleixner"
+    conference: "INFORMS Journal on Computing"
+    doi: 10.1287/ijoc.2024.0844
+    pdf: https://arxiv.org/abs/2405.19770
+    page: https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0844
+    code: https://github.com/scipopt/MIP-DD
+    bibtex: |
+      @article{Hoen2024MIPDD,
+        author = {Hoen, Alexander and Kamp, Dominik and Gleixner, Ambros},
+        title = {MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers},
+        journal = {INFORMS Journal on Computing},
+        year = {2024},
+        doi = {10.1287/ijoc.2024.0844}
+      }
 
-   - title: "Clique Probing for Mixed-Integer Programs"
-     authors: Jacob von Holly-Ponientzietz, Alexander Hoen*, Mark Turner, Ambros Gleixner
-     pdf: "https://arxiv.org/abs/2512.17551"
-     notes: under review 
- 
-   - title: "Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support"
-     authors: Ambros Gleixner, Leona Gottwald, Alexander Hoen*
-     conference: "INFORMS Journal on Computing 35(6):1329-1341"
-     doi: 10.1287/ijoc.2022.0171 
-     page: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0171
-     pdf: https://arxiv.org/abs/2206.10709
-     code: https://github.com/scipopt/papilo
-     bibtex: "@article{GGH23Papilo, year = {2023}, journal = {INFORMS Journal on Computing}, doi = {10.1287/ijoc.2022.0171}, archiveprefix = {arXiv}, eprint = {2206.10709}, primaryclass = {math.OC}, author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander}, title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support} }"
-   
-   - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
-     authors: Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger
-     conference: EURO Journal on Computational Optimization
-     pdf: https://arxiv.org/abs/2503.19411
-     doi: 10.1016/j.ejco.2025.100107
-     page: https://www.sciencedirect.com/science/article/pii/S2192440625000048
-     bibtex: 
-     code: 
-     notes:
- 
-   - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
-     authors: Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner
-     conference: Operations Research Proceedings 2023
-     pdf: https://arxiv.org/abs/2307.03466
-     page: https://doi.org/10.1007/978-3-031-58405-3_9
-     editor: Guido Voigt, Malte Fliedner, Knut Haase, Wolfgang Brüggemann, Kai Hoberg, Joern Meissner
-     pages: 1-8
-     bibtex: 
-     notes: 
- 
- 
-   - title: "Enabling research through the SCIP optimization suite 8.0"
-     authors: Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
-     conference: "ACM Transactions on Mathematical Software 49(2):1-21"
-     pdf: https://arxiv.org/abs/2303.07101
-     page: https://dl.acm.org/doi/abs/10.1145/3585516
-     bibtex: 
-     code: 
- 
-   - title: "SCIP8: rethinking nonlinear constraint representation and recent progress"
-     authors: Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
-     conference: 23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision
-     pdf: https://hal.science/hal-03595412v1/document
-     page: https://hal.science/hal-03595412/
-     bibtex: 
-     code: 
+  - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
+    authors: "Alexander Hoen*, Andy Oertel, Ambros Gleixner, Jakob Nordström"
+    conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2401.09277
+    page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
+    doi: https://doi.org/10.1007/978-3-031-60597-0_20
+    code:
+    notes:
+    bibtex: |
+      @inproceedings{Hoen2024PresolveCert,
+        author = {Hoen, Alexander and Oertel, Andy and Gleixner, Ambros and Nordstrom, Jakob},
+        title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs},
+        booktitle = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
+        year = {2024},
+        publisher = {Springer},
+        doi = {10.1007/978-3-031-60597-0_20}
+      }
 
- 
+  - title: "Clique Probing for Mixed-Integer Programs"
+    authors: "Jacob von Holly-Ponientzietz, Alexander Hoen*, Mark Turner, Ambros Gleixner"
+    pdf: https://arxiv.org/abs/2512.17551
+    notes: under review
+    bibtex: |
+      @article{HollyPonientzietz2025Clique,
+        author = {von Holly-Ponientzietz, Jacob and Hoen, Alexander and Turner, Mark and Gleixner, Ambros},
+        title = {Clique Probing for Mixed-Integer Programs},
+        year = {2025},
+        note = {Under review}
+      }
+
+  - title: "Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support"
+    authors: "Ambros Gleixner, Leona Gottwald, Alexander Hoen*"
+    conference: "INFORMS Journal on Computing 35(6):1329-1341"
+    doi: 10.1287/ijoc.2022.0171
+    page: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0171
+    pdf: https://arxiv.org/abs/2206.10709
+    code: https://github.com/scipopt/papilo
+    bibtex: |
+      @article{Gleixner2023Papilo,
+        author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander},
+        title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support},
+        journal = {INFORMS Journal on Computing},
+        year = {2023},
+        doi = {10.1287/ijoc.2022.0171}
+      }
+
+  - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
+    authors: "Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger"
+    conference: EURO Journal on Computational Optimization
+    pdf: https://arxiv.org/abs/2503.19411
+    doi: 10.1016/j.ejco.2025.100107
+    page: https://www.sciencedirect.com/science/article/pii/S2192440625000048
+    code:
+    notes:
+    bibtex: |
+      @article{Halbig2025Diving,
+        author = {Halbig, Katrin and Hoen, Alexander and Gleixner, Ambros and Weninger, Dieter},
+        title = {A diving heuristic for mixed-integer problems with unbounded semi-continuous variables},
+        journal = {EURO Journal on Computational Optimization},
+        year = {2025},
+        doi = {10.1016/j.ejco.2025.100107}
+      }
+
+  - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
+    authors: "Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner"
+    conference: Operations Research Proceedings 2023
+    pdf: https://arxiv.org/abs/2307.03466
+    page: https://doi.org/10.1007/978-3-031-58405-3_9
+    bibtex: |
+      @inproceedings{Mexi2023Scylla,
+        author = {Mexi, Gioni and Besancon, Mathieu and Bolusani, Suresh and Chmiela, Antonia and Hoen, Alexander and Gleixner, Ambros},
+        title = {Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization},
+        booktitle = {Operations Research Proceedings},
+        year = {2023},
+        publisher = {Springer},
+        doi = {10.1007/978-3-031-58405-3_9}
+      }
+
+  - title: "Enabling research through the SCIP optimization suite 8.0"
+    authors: "Mathieu Besançon*, et al."
+    conference: "ACM Transactions on Mathematical Software 49(2):1-21"
+    pdf: https://arxiv.org/abs/2303.07101
+    page: https://dl.acm.org/doi/abs/10.1145/3585516
+    bibtex: |
+      @article{Besancon2023SCIP8,
+        author = {Besancon, Mathieu et al.},
+        title = {Enabling research through the SCIP optimization suite 8.0},
+        journal = {ACM Transactions on Mathematical Software},
+        year = {2023},
+        doi = {10.1145/3585516}
+      }
+
+  - title: "SCIP8: rethinking nonlinear constraint representation and recent progress"
+    authors: "Mathieu Besançon*, et al."
+    conference: 23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision
+    pdf: https://hal.science/hal-03595412v1/document
+    page: https://hal.science/hal-03595412/
+    bibtex: |
+      @inproceedings{Besancon2023SCIP8Conf,
+        author = {Besancon, Mathieu et al.},
+        title = {SCIP8: rethinking nonlinear constraint representation and recent progress},
+        booktitle = {ROADEF},
+        year = {2023}
+      }
