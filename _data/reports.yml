@@ -5,32 +5,57 @@ main:
     conference: 
     pdf: https://arxiv.org/abs/2501.03390
     page: 
-    bibtex:
+    bibtex: |
+      @misc{mexi2025pbscip,
+        title        = {State-of-the-art Methods for Pseudo-Boolean Solving with SCIP},
+        author       = {Gioni Mexi and Dominik Kamp and Yuji Shinano and Shanwen Pu and Alexander Hoen and Ksenia Bestuzheva and Christopher Hojny and Matthias Walter and Marc E. Pfetsch and Sebastian Pokutta and Thorsten Koch},
+        year         = {2025},
+        eprint       = {2501.03390},
+        archivePrefix= {arXiv},
+        primaryClass = {math.OC},
+        url          = {https://arxiv.org/abs/2501.03390}
+      }
 
   - title: "The SCIP Optimization Suite 10.0"
     authors: Christopher Hojny, Mathieu Besançon, Ksenia Bestuzheva, Sander Borst, João Dionísio, Johannes Ehls, Leon Eifler, Mohammed Ghannam, Ambros Gleixner, Adrian Göß, Alexander Hoen, Jacob von Holly-Ponientzietz, Rolf van der Hulst, Dominik Kamp, Thorsten Koch, Kevin Kofler, Jurgen Lentz, Marco Lübbecke, Stephen J. Maher, Paul Matti Meinhold, Gioni Mexi, Til Mohr, Erik Mühmer, Krunal Kishor Patel, Marc E. Pfetsch, Sebastian Pokutta, Chantal Reinartz Groba, Felipe Serrano, Yuji Shinano, Mark Turner, Stefan Vigerske, Matthias Walter, Dieter Weninger, Liding Xu    
     conference: Technical Report
     pdf: https://arxiv.org/abs/2511.18580
     page:
-    bibtex:
-    code: https://github.com/scipopt/scip/tree/v10.0.0
+    bibtex: |
+      @misc{scip10_2025,
+        title        = {The SCIP Optimization Suite 10.0},
+        author       = {Christopher Hojny and Mathieu Besan{\c{c}}on and Ksenia Bestuzheva and Sander Borst and Jo{\~a}o Dion{\'i}sio and Johannes Ehls and Leon Eifler and Mohammed Ghannam and Ambros Gleixner and Adrian G{\"o}{\ss} and Alexander Hoen and Jacob von Holly-Ponientzietz and Rolf van der Hulst and Dominik Kamp and Thorsten Koch and Kevin Kofler and Jurgen Lentz and Marco L{\"u}bbecke and Stephen J. Maher and Paul Matti Meinhold and Gioni Mexi and Til Mohr and Erik M{\"u}hmer and Krunal Kishor Patel and Marc E. Pfetsch and Sebastian Pokutta and Chantal Reinartz Groba and Felipe Serrano and Yuji Shinano and Mark Turner and Stefan Vigerske and Matthias Walter and Dieter Weninger and Liding Xu},
+        year         = {2025},
+        eprint       = {2511.18580},
+        archivePrefix= {arXiv},
+        url          = {https://arxiv.org/abs/2511.18580}
+      }
 
   - title: "The SCIP Optimization Suite 9.0"
     authors: Suresh Bolusani, Mathieu Besançon, Ksenia Bestuzheva, Antonia Chmiela, João Dionísio, Tim Donkiewicz, Jasper van Doornmalen, Leon Eifler, Mohammed Ghannam, Ambros Gleixner, Christoph Graczyk, Katrin Halbig, Ivo Hedtke, Alexander Hoen, Christopher Hojny, Rolf van der Hulst, Dominik Kamp, Thorsten Koch, Kevin Kofler, Jurgen Lentz, Julian Manns, Gioni Mexi, Erik Mühmer, Marc E. Pfetsch, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Mark Turner, Stefan Vigerske, Dieter Weninger, Lixing Xu
     conference: Technical Report
     pdf: https://arxiv.org/abs/2402.17702
     page:
-    bibtex:
-    code: https://github.com/scipopt/scip/tree/v900
+    bibtex: |
+      @misc{scip9_2024,
+        title        = {The SCIP Optimization Suite 9.0},
+        author       = {Suresh Bolusani and Mathieu Besan{\c{c}}on and Ksenia Bestuzheva and Antonia Chmiela and Jo{\~a}o Dion{\'i}sio and Tim Donkiewicz and Jasper van Doornmalen and Leon Eifler and Mohammed Ghannam and Ambros Gleixner and Christoph Graczyk and Katrin Halbig and Ivo Hedtke and Alexander Hoen and Christopher Hojny and Rolf van der Hulst and Dominik Kamp and Thorsten Koch and Kevin Kofler and Jurgen Lentz and Julian Manns and Gioni Mexi and Erik M{\"u}hmer and Marc E. Pfetsch and Franziska Schl{\"o}sser and Felipe Serrano and Yuji Shinano and Mark Turner and Stefan Vigerske and Dieter Weninger and Lixing Xu},
+        year         = {2024},
+        eprint       = {2402.17702},
+        archivePrefix= {arXiv},
+        url          = {https://arxiv.org/abs/2402.17702}
+      }
 
   - title: "The SCIP Optimization Suite 8.0"
     authors: Ksenia Bestuzheva, Mathieu Besançon, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J. Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E. Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig
     conference: Technical Report
     pdf: https://arxiv.org/abs/2112.08872
-    bibtex:
-    code: https://github.com/scipopt/scip/tree/v800
-
-
-
-
-
+    bibtex: |
+      @misc{scip8_2021,
+        title        = {The SCIP Optimization Suite 8.0},
+        author       = {Ksenia Bestuzheva and Mathieu Besan{\c{c}}on and Wei-Kun Chen and Antonia Chmiela and Tim Donkiewicz and Jasper van Doornmalen and Leon Eifler and Oliver Gaul and Gerald Gamrath and Ambros Gleixner and Leona Gottwald and Christoph Graczyk and Katrin Halbig and Alexander Hoen and Christopher Hojny and Rolf van der Hulst and Thorsten Koch and Marco L{\"u}bbecke and Stephen J. Maher and Frederic Matter and Erik M{\"u}hmer and Benjamin M{\"u}ller and Marc E. Pfetsch and Daniel Rehfeldt and Steffan Schlein and Franziska Schl{\"o}sser and Felipe Serrano and Yuji Shinano and Boro Sofranac and Mark Turner and Stefan Vigerske and Fabian Wegscheider and Philipp Wellner and Dieter Weninger and Jakob Witzig},
+        year         = {2021},
+        eprint       = {2112.08872},
+        archivePrefix= {arXiv},
+        url          = {https://arxiv.org/abs/2112.08872}
+      }
