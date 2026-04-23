@@ -61,6 +61,9 @@ main:
         author = {von Holly-Ponientzietz, Jacob and Hoen, Alexander and Turner, Mark and Gleixner, Ambros},
         title = {Clique Probing for Mixed-Integer Programs},
         year = {2025},
+        eprint = {2512.17551},
+        archivePrefix = {arXiv},
+        primaryClass = {math.OC},
         note = {Under review}
       }
 
@@ -113,13 +116,13 @@ main:
       }
 
   - title: "Enabling research through the SCIP optimization suite 8.0"
-    authors: "Mathieu Besançon*, et al."
+    authors: "Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig"
     conference: "ACM Transactions on Mathematical Software 49(2):1-21"
     pdf: https://arxiv.org/abs/2303.07101
     page: https://dl.acm.org/doi/abs/10.1145/3585516
     bibtex: |
       @article{Besancon2023SCIP8,
-        author = {Besancon, Mathieu et al.},
+        author = {Besancon, Mathieu and Bestuzheva, Ksenia and Chen, Wei-Kun and Chmiela, Antonia and Donkiewicz, Tim and Van Doornmalen, Jasper and Eifler, Leon and Gaul, Oliver and Gamrath, Gerald and Gleixner, Ambros and Gottwald, Leona and Graczyk, Christoph and Halbig, Katrin and Hoen, Alexander and Hojny, Christopher and van Der Hulst, Rolf and Koch, Thorsten and Luebbecke, Marco and Maher, Stephen J and Matter, Frederic and Muehmer, Erik and Mueller, Benjamin and Pfetsch, Marc E and Rehfeldt, Daniel and Schlein, Steffan and Schloesser, Franziska and Serrano, Felipe and Shinano, Yuji and Sofranac, Boro and Turner, Mark and Vigerske, Stefan and Wegscheider, Fabian and Wellner, Philipp and Weninger, Dieter and Witzig, Jakob},
         title = {Enabling research through the SCIP optimization suite 8.0},
         journal = {ACM Transactions on Mathematical Software},
         year = {2023},
@@ -127,13 +130,13 @@ main:
       }
 
   - title: "SCIP8: rethinking nonlinear constraint representation and recent progress"
-    authors: "Mathieu Besançon*, et al."
+    authors: "Mathieu Besançon*, Ksenia Bestuzheva, Wei-Kun Chen, Antonia Chmiela, Tim Donkiewicz, Jasper Van Doornmalen, Leon Eifler, Oliver Gaul, Gerald Gamrath, Ambros Gleixner, Leona Gottwald, Christoph Graczyk, Katrin Halbig, Alexander Hoen, Christopher Hojny, Rolf van Der Hulst, Thorsten Koch, Marco Lübbecke, Stephen J Maher, Frederic Matter, Erik Mühmer, Benjamin Müller, Marc E Pfetsch, Daniel Rehfeldt, Steffan Schlein, Franziska Schlösser, Felipe Serrano, Yuji Shinano, Boro Sofranac, Mark Turner, Stefan Vigerske, Fabian Wegscheider, Philipp Wellner, Dieter Weninger, Jakob Witzig"
     conference: 23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision
     pdf: https://hal.science/hal-03595412v1/document
     page: https://hal.science/hal-03595412/
     bibtex: |
       @inproceedings{Besancon2023SCIP8Conf,
-        author = {Besancon, Mathieu et al.},
+        author = {Besancon, Mathieu and Bestuzheva, Ksenia and Chen, Wei-Kun and Chmiela, Antonia and Donkiewicz, Tim and Van Doornmalen, Jasper and Eifler, Leon and Gaul, Oliver and Gamrath, Gerald and Gleixner, Ambros and Gottwald, Leona and Graczyk, Christoph and Halbig, Katrin and Hoen, Alexander and Hojny, Christopher and van Der Hulst, Rolf and Koch, Thorsten and Luebbecke, Marco and Maher, Stephen J and Matter, Frederic and Muehmer, Erik and Mueller, Benjamin and Pfetsch, Marc E and Rehfeldt, Daniel and Schlein, Steffan and Schloesser, Franziska and Serrano, Felipe and Shinano, Yuji and Sofranac, Boro and Turner, Mark and Vigerske, Stefan and Wegscheider, Fabian and Wellner, Philipp and Weninger, Dieter and Witzig, Jakob},
         title = {SCIP8: rethinking nonlinear constraint representation and recent progress},
         booktitle = {ROADEF},
         year = {2023}
