@@ -3,12 +3,11 @@
 <div class="publications">
 <ol class="bibliography">
 
-
 {% for link in site.data.publications.main %}
 <li>
   <div class="pub-row">
 
-    <!-- Left column: image / badge -->
+    <!-- Left column -->
     <div class="col-sm-3 abbr" style="padding: 0 15px;">
       {% if link.image %}
       <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
@@ -18,11 +17,13 @@
       {% endif %}
     </div>
 
-    <!-- Right column: title, authors, buttons -->
+    <!-- Right column -->
     <div class="col-sm-9" style="padding: 0 20px;">
+      
       <div class="title">
         <a href="{{ link.pdf }}">{{ link.title }}</a>
       </div>
+
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em></div>
 
@@ -31,23 +32,31 @@
         {% if link.pdf %}
         <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0">PDF</a>
         {% endif %}
+
         {% if link.code %}
         <a href="{{ link.code }}" class="btn btn-sm z-depth-0">Code</a>
         {% endif %}
+
         {% if link.page %}
         <a href="{{ link.page }}" class="btn btn-sm z-depth-0">Link</a>
         {% endif %}
+
         {% if link.bibtex %}
-        <button class="btn btn-sm z-depth-0 bibtex-btn">BibTeX</button>
+        <a href="javascript:void(0);" 
+           class="btn btn-sm z-depth-0 bibtex-btn"
+           onclick="toggleBibtex('bibtex{{ forloop.index }}', this)">
+           BibTeX
+        </a>
         {% endif %}
+
         {% if link.notes %}
         <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
         {% endif %}
       </div>
 
-      <!-- BibTeX content: visible by default -->
+      <!-- BibTeX (hidden by default) -->
       {% if link.bibtex %}
-      <div class="bibtex-content">
+      <div id="bibtex{{ forloop.index }}" class="bibtex-content">
         <button class="copy-btn" onclick="copyBibtex('bibtex-text{{ forloop.index }}')">Copy</button>
         <pre id="bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
       </div>
@@ -62,27 +71,28 @@
 </div>
 
 <style>
-/* Button spacing and size */
-.links .btn, .bibtex-btn {
+/* Buttons */
+.links .btn {
   font-size: 12px;
   padding: 3px 8px;
   margin-right: 5px;
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-/* BibTeX box visible by default */
+/* BibTeX hidden initially */
 .bibtex-content {
-  display: block; /* visible immediately */
-  margin-top: 5px;
+  display: none;
+  margin-top: 6px;
   background: #f8f9fa;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
   position: relative;
 }
 
-/* Copy button inside BibTeX box */
+/* Copy button */
 .copy-btn {
   position: absolute;
   top: 8px;
@@ -99,16 +109,28 @@
   background: #d0d7de;
 }
 
-/* Optional: style pre/code */
+/* Code block */
 .bibtex-content pre {
   margin: 0;
   font-size: 12px;
   overflow-x: auto;
-  padding-right: 60px; /* space for copy button */
+  padding-right: 60px;
 }
 </style>
 
 <script>
+function toggleBibtex(id, btn){
+  const el = document.getElementById(id);
+
+  if (el.style.display === "block") {
+    el.style.display = "none";
+    btn.textContent = "BibTeX";
+  } else {
+    el.style.display = "block";
+    btn.textContent = "Hide";
+  }
+}
+
 function copyBibtex(id){
   const text = document.getElementById(id).innerText;
   navigator.clipboard.writeText(text).then(() => {
