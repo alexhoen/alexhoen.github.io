@@ -41,7 +41,7 @@ main:
      page: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0171
      pdf: https://arxiv.org/abs/2206.10709
      code: https://github.com/scipopt/papilo
-     #bibtex: { @article{GGH23Papilo, year = {2023}, journal = {INFORMS Journal on Computing}, doi = {10.1287/ijoc.2022.0171}, archiveprefix = {arXiv}, eprint = {2206.10709}, primaryclass = {math.OC}, author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander}, title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support} } }
+     bibtex: { @article{GGH23Papilo, year = {2023}, journal = {INFORMS Journal on Computing}, doi = {10.1287/ijoc.2022.0171}, archiveprefix = {arXiv}, eprint = {2206.10709}, primaryclass = {math.OC}, author = {Gleixner, Ambros and Gottwald, Leona and Hoen, Alexander}, title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support} } }
 
    - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
      authors: Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger
