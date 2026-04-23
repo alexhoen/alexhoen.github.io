@@ -1,4 +1,10 @@
 main:
+
+   #- title: "The 2026 Land-Doig MIP Competition"
+   #  authors:
+   #  description: "TBD"
+   #  link: https://www.mixedinteger.org/2026/competition/
+
  
    - title: "PseudoBoolean Competition 2024"
      authors: Alexander Hoen*, Ambros Gleixner
