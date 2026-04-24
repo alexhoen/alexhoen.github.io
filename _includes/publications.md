@@ -71,6 +71,36 @@
 </div>
 
 <style>
+/* Remove default list indentation */
+.publications ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.publications li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Row alignment (remove Bootstrap gutter offset) */
+.pub-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Remove column padding for flush layout */
+.pub-row > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Optional: add small spacing between entries */
+.publications li {
+  margin-bottom: 12px;
+}
+
 /* Buttons */
 .links .btn {
   font-size: 12px;
@@ -117,7 +147,6 @@
   padding-right: 60px;
 }
 </style>
-
 <script>
 function toggleBibtex(id, btn){
   const el = document.getElementById(id);
