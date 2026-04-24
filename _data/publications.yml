@@ -9,15 +9,18 @@ main:
     code: https://github.com/alexhoen/bnbanalyzer
     notes:
     bibtex: |
-      @inproceedings{Hoen2025BnBAnalyzer,
-        author = {Hoen, Alexander and Gleixner, Ambros},
-        title = {Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings},
-        booktitle = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
-        year = {2025},
-        publisher = {Springer},
-        doi = {10.1007/978-3-031-95976-9_3}
+      @InProceedings{10.1007/978-3-031-95976-9_3,
+        author="Hoen, Alexander and Gleixner, Ambros",
+        editor="Tack, Guido",
+        title="Analyzing the Numerical Correctness of Branch-and-Bound Decisions for Mixed-Integer Programming",
+        booktitle="Integration of Constraint Programming, Artificial Intelligence, and Operations Research",
+        year="2025",
+        publisher="Springer Nature Switzerland",
+        address="Cham",
+        pages="35--50",
+        isbn="978-3-031-95976-9"
       }
-
+      
   - title: "MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers"
     authors: "Alexander Hoen*, Dominik Kamp, Ambros Gleixner"
     conference: "INFORMS Journal on Computing"
@@ -30,8 +33,11 @@ main:
         author = {Hoen, Alexander and Kamp, Dominik and Gleixner, Ambros},
         title = {MIP-DD: A Delta Debugger for Mixed Integer Programming Solvers},
         journal = {INFORMS Journal on Computing},
-        year = {2024},
-        doi = {10.1287/ijoc.2024.0844}
+        volume  = {38},
+        number  = {2},
+        pages   = {414--423},
+        year    = {2025},
+        doi     = {10.1287/ijoc.2024.0844}
       }
 
   - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
@@ -48,7 +54,12 @@ main:
         title = {Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs},
         booktitle = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)},
         year = {2024},
+        editor    = {Bistra Dilkina},
+        series    = {Lecture Notes in Computer Science},
+        volume    = {14742},
+        pages     = {310--328},
         publisher = {Springer},
+        year      = {2024},
         doi = {10.1007/978-3-031-60597-0_20}
       }
 
@@ -80,6 +91,9 @@ main:
         title = {PaPILO: a Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support},
         journal = {INFORMS Journal on Computing},
         year = {2023},
+        volume  = {35},
+        number  = {6},
+        pages   = {1329--1341},
         doi = {10.1287/ijoc.2022.0171}
       }
 
@@ -96,7 +110,10 @@ main:
         author = {Halbig, Katrin and Hoen, Alexander and Gleixner, Ambros and Weninger, Dieter},
         title = {A diving heuristic for mixed-integer problems with unbounded semi-continuous variables},
         journal = {EURO Journal on Computational Optimization},
+        volume = {13},
+        pages = {100107},
         year = {2025},
+        issn = {2192-4406},
         doi = {10.1016/j.ejco.2025.100107}
       }
 
@@ -109,9 +126,11 @@ main:
       @inproceedings{Mexi2023Scylla,
         author = {Mexi, Gioni and Besancon, Mathieu and Bolusani, Suresh and Chmiela, Antonia and Hoen, Alexander and Gleixner, Ambros},
         title = {Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization},
-        booktitle = {Operations Research Proceedings},
-        year = {2023},
-        publisher = {Springer},
+        booktitle= {Operations Research Proceedings 2023},
+        year= {2025},
+        publisher= {Springer Nature Switzerland},
+        address= {Cham},
+        pages= {65--72},
         doi = {10.1007/978-3-031-58405-3_9}
       }
 
@@ -126,6 +145,8 @@ main:
         title = {Enabling research through the SCIP optimization suite 8.0},
         journal = {ACM Transactions on Mathematical Software},
         year = {2023},
+        volume  = {49},
+        number  = {2},
         doi = {10.1145/3585516}
       }
 
@@ -135,9 +156,10 @@ main:
     pdf: https://hal.science/hal-03595412v1/document
     page: https://hal.science/hal-03595412/
     bibtex: |
-      @inproceedings{Besancon2023SCIP8Conf,
+      @misc{Besancon2023SCIP8Conf,
         author = {Besancon, Mathieu and Bestuzheva, Ksenia and Chen, Wei-Kun and Chmiela, Antonia and Donkiewicz, Tim and Van Doornmalen, Jasper and Eifler, Leon and Gaul, Oliver and Gamrath, Gerald and Gleixner, Ambros and Gottwald, Leona and Graczyk, Christoph and Halbig, Katrin and Hoen, Alexander and Hojny, Christopher and van Der Hulst, Rolf and Koch, Thorsten and Luebbecke, Marco and Maher, Stephen J and Matter, Frederic and Muehmer, Erik and Mueller, Benjamin and Pfetsch, Marc E and Rehfeldt, Daniel and Schlein, Steffan and Schloesser, Franziska and Serrano, Felipe and Shinano, Yuji and Sofranac, Boro and Turner, Mark and Vigerske, Stefan and Wegscheider, Fabian and Wellner, Philipp and Weninger, Dieter and Witzig, Jakob},
         title = {SCIP8: rethinking nonlinear constraint representation and recent progress},
-        booktitle = {ROADEF},
-        year = {2023}
+        howpublished = {23ème congrès annuel de la Société Française de Recherche Opérationnelle et d'Aide à la Décision},
+        year = {2023},
+        note = {HAL: hal-03595412}
       }
