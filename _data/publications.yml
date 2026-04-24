@@ -99,7 +99,7 @@ main:
 
   - title: "A diving heuristic for mixed-integer problems with unbounded semi-continuous variables"
     authors: "Katrin Halbig*, Alexander Hoen, Ambros Gleixner, Dieter Weninger"
-    conference: EURO Journal on Computational Optimization
+    conference: EURO Journal on Computational Optimization (13)
     pdf: https://arxiv.org/abs/2503.19411
     doi: 10.1016/j.ejco.2025.100107
     page: https://www.sciencedirect.com/science/article/pii/S2192440625000048
@@ -111,7 +111,6 @@ main:
         title = {A diving heuristic for mixed-integer problems with unbounded semi-continuous variables},
         journal = {EURO Journal on Computational Optimization},
         volume = {13},
-        pages = {100107},
         year = {2025},
         issn = {2192-4406},
         doi = {10.1016/j.ejco.2025.100107}
