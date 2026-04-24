@@ -1,4 +1,7 @@
-## Technical Reports
+<h2 id="reports" style="margin: 2px 0px -15px;">Reports</h2>
+
+<div class="publications">
+<ol class="bibliography">
 
 {% for link in site.data.reports.main %}
 <li>
