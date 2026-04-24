@@ -1,58 +1,103 @@
 ## Technical Reports
 
 {% for link in site.data.reports.main %}
+<li>
+  <div class="pub-row">
 
-  {% if link.image %}{% endif %} {% if link.conference_short %} {{ link.conference_short }} {% endif %}
+    <!-- Left column -->
+    <div class="col-sm-3 abbr" style="padding: 0 15px;">
+      {% if link.image %}
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
+      {% endif %}
+      {% if link.conference_short %}
+      <abbr class="badge">{{ link.conference_short }}</abbr>
+      {% endif %}
+    </div>
 
-  <div class="title">
-    <a href="{{ link.pdf }}">{{ link.title }}</a>
+    <!-- Right column -->
+    <div class="col-sm-9" style="padding: 0 20px;">
+      
+      <div class="title">
+        <a href="{{ link.pdf }}">{{ link.title }}</a>
+      </div>
+
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em></div>
+
+      <!-- Buttons -->
+      <div class="links">
+        {% if link.pdf %}
+        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0">PDF</a>
+        {% endif %}
+
+        {% if link.code %}
+        <a href="{{ link.code }}" class="btn btn-sm z-depth-0">Code</a>
+        {% endif %}
+
+        {% if link.page %}
+        <a href="{{ link.page }}" class="btn btn-sm z-depth-0">Link</a>
+        {% endif %}
+
+        {% if link.bibtex %}
+        <a href="javascript:void(0);" 
+           class="btn btn-sm z-depth-0 bibtex-btn"
+           onclick="toggleBibtex('bibtex{{ forloop.index }}', this)">
+           BibTeX
+        </a>
+        {% endif %}
+
+        {% if link.notes %}
+        <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+        {% endif %}
+      </div>
+
+      <!-- BibTeX (hidden by default) -->
+      {% if link.bibtex %}
+      <div id="bibtex{{ forloop.index }}" class="bibtex-content">
+        <button class="copy-btn" onclick="copyBibtex('bibtex-text{{ forloop.index }}')">Copy</button>
+        <pre id="bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
+      </div>
+      {% endif %}
+
+    </div>
   </div>
-
-  <div class="author">{{ link.authors }}</div>
-  <div class="periodical"><em>{{ link.conference }}</em></div>
-
-  <!-- Buttons -->
-  <div class="links">
-    {% if link.pdf %}
-    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" target="_blank">PDF</a>
-    {% endif %}
-
-    {% if link.code %}
-    <a href="{{ link.code }}" class="btn btn-sm z-depth-0" target="_blank">Code</a>
-    {% endif %}
-
-    {% if link.page %}
-    <a href="{{ link.page }}" class="btn btn-sm z-depth-0" target="_blank">Link</a>
-    {% endif %}
-
-    {% if link.bibtex %}
-    <a href="javascript:void(0);"
-       class="btn btn-sm z-depth-0"
-       onclick="toggleBibtex('report-bibtex{{ forloop.index }}', this)">
-      BibTeX
-    </a>
-    {% endif %}
-
-    {% if link.notes %}
-    <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
-    {% endif %}
-
-    {% if link.others %}
-    {{ link.others }}
-    {% endif %}
-  </div>
-
-  <!-- BibTeX (hidden by default) -->
-  {% if link.bibtex %}
-  <div id="report-bibtex{{ forloop.index }}" class="bibtex-content">
-    <button class="copy-btn" onclick="copyBibtex('report-bibtex-text{{ forloop.index }}')">Copy</button>
-    <pre id="report-bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
-  </div>
-  {% endif %}
-
+</li>
 {% endfor %}
 
+</ol>
+</div>
+
 <style>
+/* Remove default list indentation */
+.publications ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.publications li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Row alignment (remove Bootstrap gutter offset) */
+.pub-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Remove column padding for flush layout */
+.pub-row > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Optional: add small spacing between entries */
+.publications li {
+  margin-bottom: 12px;
+}
+
 /* Buttons */
 .links .btn {
   font-size: 12px;
@@ -63,7 +108,7 @@
   vertical-align: middle;
 }
 
-/* BibTeX box */
+/* BibTeX hidden initially */
 .bibtex-content {
   display: none;
   margin-top: 6px;
@@ -99,10 +144,10 @@
   padding-right: 60px;
 }
 </style>
-
 <script>
 function toggleBibtex(id, btn){
   const el = document.getElementById(id);
+
   if (el.style.display === "block") {
     el.style.display = "none";
     btn.textContent = "BibTeX";
