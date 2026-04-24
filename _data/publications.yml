@@ -2,7 +2,7 @@ main:
 
   - title: "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programmings"
     authors: "Alexander Hoen*, Ambros Gleixner"
-    conference: The 22st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2025
+    conference: The 22st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2025:35-50
     pdf: https://arxiv.org/abs/2412.14710
     page: https://link.springer.com/chapter/10.1007/978-3-031-95976-9_3
     doi: https://doi.org/10.1007/978-3-031-95976-9_3
@@ -42,7 +42,7 @@ main:
 
   - title: "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
     authors: "Alexander Hoen*, Andy Oertel, Ambros Gleixner, Jakob Nordström"
-    conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024
+    conference: The 21st International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research <strong>(CPAIOR)</strong>, 2024:310-328
     pdf: https://arxiv.org/abs/2401.09277
     page: https://www.springerprofessional.de/certifying-mip-based-presolve-reductions-for-integer-linear-prog/27143840
     doi: https://doi.org/10.1007/978-3-031-60597-0_20
@@ -119,7 +119,7 @@ main:
 
   - title: "Scylla: a Matrix-free Fix-propagate-and-project Heuristic for Mixed-integer Optimization"
     authors: "Gioni Mexi*, Mathieu Besançon, Suresh Bolusani, Antonia Chmiela, Alexander Hoen, Ambros Gleixner"
-    conference: Operations Research Proceedings 2023
+    conference: Operations Research Proceedings 2023:65-72
     pdf: https://arxiv.org/abs/2307.03466
     page: https://doi.org/10.1007/978-3-031-58405-3_9
     bibtex: |
