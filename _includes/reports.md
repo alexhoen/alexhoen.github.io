@@ -44,9 +44,11 @@
     {% endif %}
 
     {% if link.bibtex %}
-    <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="toggleBibtex(this)">
-      BibTeX
-    </button>
+    <a href="javascript:void(0);" 
+       class="btn btn-sm z-depth-0 bibtex-btn"
+       onclick="toggleBibtex(this)">
+       BibTeX
+    </a>
     {% endif %}
 
     {% if link.notes %}
@@ -58,7 +60,7 @@
   {% if link.bibtex %}
   <div class="bibtex-content">
     <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
-    <pre><code>{{ link.bibtex | escape }}</code></pre>
+    <pre>{{ link.bibtex }}</pre>
   </div>
   {% endif %}
 
@@ -100,6 +102,7 @@
   margin-right: 5px;
   line-height: 1.2;
   display: inline-block;
+  vertical-align: middle;
 }
 
 /* BibTeX box */
