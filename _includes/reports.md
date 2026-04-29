@@ -4,65 +4,67 @@
 <ol class="bibliography">
 
 {% for link in site.data.reports.main %}
+
 <li>
   <div class="pub-row">
 
-    <!-- Left column -->
-    <div class="col-sm-3 abbr" style="padding: 0 15px;">
-      {% if link.image %}
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
-      {% endif %}
-      {% if link.conference_short %}
-      <abbr class="badge">{{ link.conference_short }}</abbr>
-      {% endif %}
-    </div>
+```
+<!-- Left column -->
+<div class="col-sm-3 abbr">
+  {% if link.image %}
+  <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
+  {% endif %}
+  {% if link.conference_short %}
+  <abbr class="badge">{{ link.conference_short }}</abbr>
+  {% endif %}
+</div>
 
-    <!-- Right column -->
-    <div class="col-sm-9" style="padding: 0 20px;">
-      
-      <div class="title">
-        <a href="{{ link.pdf }}">{{ link.title }}</a>
-      </div>
+<!-- Right column -->
+<div class="col-sm-9">
+  
+  <div class="title">
+    <a href="{{ link.pdf }}">{{ link.title }}</a>
+  </div>
 
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em></div>
+  <div class="author">{{ link.authors }}</div>
+  <div class="periodical"><em>{{ link.conference }}</em></div>
 
-      <!-- Buttons -->
-      <div class="links">
-        {% if link.pdf %}
-        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0">PDF</a>
-        {% endif %}
+  <!-- Buttons -->
+  <div class="links">
+    {% if link.pdf %}
+    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0">PDF</a>
+    {% endif %}
 
-        {% if link.code %}
-        <a href="{{ link.code }}" class="btn btn-sm z-depth-0">Code</a>
-        {% endif %}
+    {% if link.code %}
+    <a href="{{ link.code }}" class="btn btn-sm z-depth-0">Code</a>
+    {% endif %}
 
-        {% if link.page %}
-        <a href="{{ link.page }}" class="btn btn-sm z-depth-0">Link</a>
-        {% endif %}
+    {% if link.page %}
+    <a href="{{ link.page }}" class="btn btn-sm z-depth-0">Link</a>
+    {% endif %}
 
-        {% if link.bibtex %}
-        <a href="javascript:void(0);" 
-           class="btn btn-sm z-depth-0 bibtex-btn"
-           onclick="toggleBibtex('bibtex{{ forloop.index }}', this)">
-           BibTeX
-        </a>
-        {% endif %}
+    {% if link.bibtex %}
+    <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="toggleBibtex(this)">
+      BibTeX
+    </button>
+    {% endif %}
 
-        {% if link.notes %}
-        <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
-        {% endif %}
-      </div>
+    {% if link.notes %}
+    <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+    {% endif %}
+  </div>
 
-      <!-- BibTeX (hidden by default) -->
-      {% if link.bibtex %}
-      <div id="bibtex{{ forloop.index }}" class="bibtex-content">
-        <button class="copy-btn" onclick="copyBibtex('bibtex-text{{ forloop.index }}')">Copy</button>
-        <pre id="bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
-      </div>
-      {% endif %}
+  <!-- BibTeX -->
+  {% if link.bibtex %}
+  <div class="bibtex-content">
+    <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
+    <pre><code>{{ link.bibtex | escape }}</code></pre>
+  </div>
+  {% endif %}
 
-    </div>
+</div>
+```
+
   </div>
 </li>
 {% endfor %}
@@ -71,7 +73,6 @@
 </div>
 
 <style>
-/* Remove default list indentation */
 .publications ol {
   list-style: decimal;
   list-style-position: inside;
@@ -80,25 +81,16 @@
 }
 
 .publications li {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* Row alignment (remove Bootstrap gutter offset) */
-.pub-row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* Remove column padding for flush layout */
-.pub-row > div {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* Optional: add small spacing between entries */
-.publications li {
   margin-bottom: 12px;
+}
+
+/* Layout */
+.pub-row {
+  margin: 0;
+}
+
+.pub-row > div {
+  padding: 0 !important;
 }
 
 /* Buttons */
@@ -108,10 +100,9 @@
   margin-right: 5px;
   line-height: 1.2;
   display: inline-block;
-  vertical-align: middle;
 }
 
-/* BibTeX hidden initially */
+/* BibTeX box */
 .bibtex-content {
   display: none;
   margin-top: 6px;
@@ -145,25 +136,30 @@
   font-size: 12px;
   overflow-x: auto;
   padding-right: 60px;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 </style>
-<script>
-function toggleBibtex(id, btn){
-  const el = document.getElementById(id);
 
-  if (el.style.display === "block") {
-    el.style.display = "none";
-    btn.textContent = "BibTeX";
-  } else {
-    el.style.display = "block";
-    btn.textContent = "Hide";
-  }
+<script>
+function toggleBibtex(btn){
+  const container = btn.closest('.pub-row');
+  const bib = container.querySelector('.bibtex-content');
+
+  if (!bib) return;
+
+  const isVisible = bib.style.display === "block";
+  bib.style.display = isVisible ? "none" : "block";
+  btn.textContent = isVisible ? "BibTeX" : "Hide";
 }
 
-function copyBibtex(id){
-  const text = document.getElementById(id).innerText;
+function copyBibtex(btn){
+  const container = btn.closest('.bibtex-content');
+  const text = container.querySelector('pre').innerText;
+
   navigator.clipboard.writeText(text).then(() => {
-    alert("BibTeX copied!");
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy", 1200);
   });
 }
 </script>
