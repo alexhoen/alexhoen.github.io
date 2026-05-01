@@ -8,7 +8,6 @@
 <li>
   <div class="pub-row">
 
-```
 <!-- Left column -->
 <div class="col-sm-3 abbr">
   {% if link.image %}
