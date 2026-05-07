@@ -1,20 +1,20 @@
 main:
 
-  - title: "CHAP: A Hybrid GPU-CPU Heuristic for MIP"
-    authors: Gennesaret Kharistio Tjusila*, Alexander Hoen, Nils-Christian Kempke, Gioni Mexi, Timo Berthold, Ambros Gleixner, Thorsten Koch, Sebastian Pokutta
-    conference: MIP Competition 2026 report
-    pdf: https://arxiv.org/abs/2605.05086
-    page: 
-    bibtex: |
-        @misc{tjusila2026chap,
-        title        = {CHAP: A Hybrid GPU-CPU Heuristic for MIP}, 
-        author       = {Gennesaret Kharistio Tjusila and Alexander Hoen and Nils-Christian Kempke and Gioni Mexi and Timo Berthold and Ambros Gleixner and Thorsten Koch and Sebastian Pokutta},
-        year         = {2026},
-        eprint       = {2605.05086},
-        archivePrefix= {arXiv},
-        primaryClass = {math.OC},
-        url          = {https://arxiv.org/abs/2605.05086}, 
-      }
+- title: "CHAP: A Hybrid GPU-CPU Heuristic for MIP"
+  authors: Gennesaret Kharistio Tjusila*, Alexander Hoen, Nils-Christian Kempke, Gioni Mexi, Timo Berthold, Ambros Gleixner, Thorsten Koch, Sebastian Pokutta
+  conference: MIP Competition 2026 report
+  pdf: https://arxiv.org/abs/2605.05086
+  page:
+  bibtex: |
+    @misc{tjusila2026chap,
+      title         = {CHAP: A Hybrid GPU-CPU Heuristic for MIP},
+      author        = {Gennesaret Kharistio Tjusila and Alexander Hoen and Nils-Christian Kempke and Gioni Mexi and Timo Berthold and Ambros Gleixner and Thorsten Koch and Sebastian Pokutta},
+      year          = {2026},
+      eprint        = {2605.05086},
+      archivePrefix = {arXiv},
+      primaryClass  = {math.OC},
+      url           = {https://arxiv.org/abs/2605.05086},
+    }
       
   - title: "State-of-the-art Methods for Pseudo-Boolean Solving with SCIP"
     authors: Gioni Mexi*, Dominik Kamp, Yuji Shinano, Shanwen Pu, Alexander Hoen, Ksenia Bestuzheva, Christopher Hojny, Matthias Walter, Marc E. Pfetsch, Sebastian Pokutta, Thorsten Koch
