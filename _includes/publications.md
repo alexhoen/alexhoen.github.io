@@ -44,7 +44,7 @@
         {% if link.bibtex %}
         <a href="javascript:void(0);" 
            class="btn btn-sm z-depth-0 bibtex-btn"
-           onclick="toggleBibtex(this)">
+           onclick="toggleBibtex('bibtex{{ forloop.index }}', this)">
            BibTeX
         </a>
         {% endif %}
