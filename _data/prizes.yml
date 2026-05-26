@@ -1,8 +1,8 @@
 main:
 
-   - title: "The 2026 Land-Doig MIP Competition."
+   - title: "Winner of the 2026 Land-Doig MIP Competition."
      authors: Gennesaret Kharistio Tjusila, Alexander Hoen, Nils-Christian Kempke, Gioni Mexi, Timo Berthold, Ambros Gleixner, Thorsten Koch, Sebastian Pokutta
-     description: "1st place"
+     #description: "1st place"
      link: #https://www.mixedinteger.org/2026/competition/
 
  
