@@ -148,22 +148,24 @@
 }
 </style>
 <script>
-function toggleBibtex(id, btn){
-  const el = document.getElementById(id);
+function toggleBibtex(btn){
+  const container = btn.closest('.pub-row');
+  const bib = container.querySelector('.bibtex-content');
 
-  if (el.style.display === "block") {
-    el.style.display = "none";
-    btn.textContent = "BibTeX";
-  } else {
-    el.style.display = "block";
-    btn.textContent = "Hide";
-  }
+  if (!bib) return;
+
+  const isVisible = bib.style.display === "block";
+  bib.style.display = isVisible ? "none" : "block";
+  btn.textContent = isVisible ? "BibTeX" : "Hide";
 }
 
-function copyBibtex(id){
-  const text = document.getElementById(id).innerText;
+function copyBibtex(btn){
+  const container = btn.closest('.bibtex-content');
+  const text = container.querySelector('pre').innerText;
+
   navigator.clipboard.writeText(text).then(() => {
-    alert("BibTeX copied!");
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy", 1200);
   });
 }
 </script>
