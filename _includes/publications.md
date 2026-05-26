@@ -56,14 +56,9 @@
 
       <!-- BibTeX (hidden by default) -->
       {% if link.bibtex %}
-      <div id="bibtex-report-{{ forloop.index }}" class="bibtex-content">
-        <button class="copy-btn" onclick="copyBibtex('bibtex-report-text{{ forloop.index }}')">
-          Copy
-        </button>
-      
-        <pre id="bibtex-report-text{{ forloop.index }}">
-          <code>{{ link.bibtex }}</code>
-        </pre>
+      <div id="bibtex{{ forloop.index }}" class="bibtex-content">
+        <button class="copy-btn" onclick="copyBibtex('bibtex-text{{ forloop.index }}')">Copy</button>
+        <pre id="bibtex-text{{ forloop.index }}"><code>{{ link.bibtex }}</code></pre>
       </div>
       {% endif %}
 
