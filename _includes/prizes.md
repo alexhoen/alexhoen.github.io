@@ -12,7 +12,7 @@
 
     {% if link.description %}
       <br>
-      {{ link.description }}
+      - {{ link.description }}
     {% endif %}
 
     {% if link.notes %} {{ link.notes }} {% endif %}
